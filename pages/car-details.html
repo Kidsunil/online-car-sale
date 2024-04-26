@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Details - Online Car Sale</title>
+    <link rel="stylesheet" href="../css/style.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+<header>
+  <nav>
+    <div class="logo">
+      <a href="../index.html">
+        <img src="../images/logo.webp" alt="Online Car Sale Logo" /></a>
+    </div>
+    <div class="nav-toggle">
+      <input type="checkbox" id="nav-checkbox">
+      <label for="nav-checkbox" class="nav-toggle-label">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul class="nav-menu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="seller-registration.html">Seller Registration</a></li>
+        <li><a href="seller-page.html">Seller Page</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+    <main>
+      <section class="car-details">
+        <h1 id="car-name">Car Name</h1>
+        <div class="car-info">
+          <img id="car-image" src="" alt="Car" />
+          <div class="car-specs">
+            <p><strong>Make:</strong> <span id="car-make"></span></p>
+            <p><strong>Model:</strong> <span id="car-model"></span></p>
+            <p><strong>Year:</strong> <span id="car-year"></span></p>
+            <p><strong>Mileage:</strong> <span id="car-mileage"></span></p>
+            <p><strong>Location:</strong> <span id="car-location"></span></p>
+            <p><strong>Price:</strong> <span id="car-price"></span></p>
+          </div>
+        </div>
+        <div class="car-description">
+          <h2>Description</h2>
+          <p id="car-description"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Online Car Sale. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/car-details.js"></script>
+  </body>
+</html>

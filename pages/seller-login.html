@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seller Login - Online Car Sale</title>
+  <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+<header>
+  <nav>
+    <div class="logo">
+      <a href="../index.html">
+        <img src="../images/logo.webp" alt="Online Car Sale Logo" /></a>
+    </div>
+    <div class="nav-toggle">
+      <input type="checkbox" id="nav-checkbox">
+      <label for="nav-checkbox" class="nav-toggle-label">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul class="nav-menu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="seller-registration.html">Seller Registration</a></li>
+        <li><a href="seller-page.html">Seller Page</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+  <main>
+    <section class="seller-login">
+      <h1>Seller Login</h1>
+      <form id="seller-login-form">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" class="btn">Login</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Online Car Sale. All rights reserved.</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
